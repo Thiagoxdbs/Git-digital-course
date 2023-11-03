@@ -311,9 +311,33 @@ _______________________________________________________________________________
 	&(X) = 1/(1+e^-x)
 	ELA NUNCA É MENOR QUE 0 OU MAIOR QUE 1
 	
+_______________________________________________________________________________
+
+2.05 CONCEITOS DE LIMITES
+_______________________________________________________________________________
+
+
+	LIMITES:
+	
+	F(X)= 1/X
+	QUANTO MAIS PROXIMO DE 0 O X FOR, MAIS ALTO O VALOR RESULTANTE 
+	LIM F(X) = 0 TENDE-SE AO INFINITO
+		
+	LIMITE LATERAIS
+	F(X)= 1/X , Xe|R
+	LIM ---> 0
+	SEMPRE CAMINHANDO A PERTO DE 0 DO X POSITIVO PARA INFINITO POSITIVO
+	SEMPRE CAMINHANDO A PERTO DE 0 DO X NEGATIVO PARA INFINITO NEGATIVO
+	SEMPRE DEPENDENDO DO LADO POSITIVO OU NEGATIVO
+	+X POSITIVO = +INFINITO = 0
+	-X NEGATIVO = -INFINITO = 0
+	F: |R =! {0} --->|R 
+	X ---> F(X)=1/X
+	
+	
 -------------------------------------------------------------
 
-
+	
 -------------------------------------------------------------
 
 
