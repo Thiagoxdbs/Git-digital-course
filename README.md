@@ -41,14 +41,17 @@ GIT COMANDOS
 				git diff mostra as linhas modificadas 
 				git diff --staged 
 				
+				git log traz todos os ultimos commits
 				
+				git fetch vê os arquivos que vão ser baixados pelo git
+				git diff origin/main mostra os arquivos que vão entrar pelo git pull
 				
 --------------------------------------------------------------
 
 	untracked = passa direto para o staged
 	add the file
 
-	unmodifiel = estado = já está mapeado pelo git, passou para um processo de staged e commit
+	unmodifiel = arquivo já está mapeado pelo git, passou para um processo de staged e commit
 	remove the file
 	edit the file
 
