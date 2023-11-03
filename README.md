@@ -1,10 +1,14 @@
-Versionamento 
+
+_______________________________________________________________________________
+
+Versionamento:
+
 	Utilizado em projeto para fazer versoes
 	determinar o ponto que está no software 
 	registo em arquivos de codigo, mas não precisa ser nescessariamente me codigo
 	podendo voltar ou comentar um codigo em uma certa parte 
 --------------------------------------------------------------
-O que é git 
+O que é git:
 
 	git é um sistema de versionamento de codigo, que guarda os registros de versão como snapshots, com referencias
 
@@ -36,18 +40,20 @@ GIT COMANDOS
 
 
 --------------------------------------------------------------
-untracked = passa direto para o staged
+
+	untracked = 	passa direto para o staged
 	add the file
 
-unmodifiel = estado = já está mapeado pelo git, passou para um processo de staged e commit
+	unmodifiel = 	estado 	= 	já está mapeado pelo git, passou para um processo de staged e commit
 	remove the file
 	edit the file
 
-modifiel = o arquivo foi modificado na podendo
+	modifiel =	 o arquivo foi modificado na podendo
 	stage the file
 
-staged antes do commit
+	staged antes do commit
 	commit 
+ 
 -------------------------------------------------------------
 
 
