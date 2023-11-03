@@ -38,20 +38,24 @@ GIT COMANDOS
 
 				git restore --staged 'file' volta para o estado anterior
 
-
+				git diff mostra as linhas modificadas 
+				git diff --staged 
+				
+				
+				
 --------------------------------------------------------------
 
-	untracked = 	passa direto para o staged
+	untracked = passa direto para o staged
 	add the file
 
-	unmodifiel = 	estado 	= 	já está mapeado pelo git, passou para um processo de staged e commit
+	unmodifiel = estado = já está mapeado pelo git, passou para um processo de staged e commit
 	remove the file
 	edit the file
 
-	modifiel =	 o arquivo foi modificado na podendo
+	modifiel = o arquivo foi modificado na podendo
 	stage the file
 
-	staged antes do commit
+	staged = estado antes do commit
 	commit 
  
 -------------------------------------------------------------
