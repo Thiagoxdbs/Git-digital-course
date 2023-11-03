@@ -20,31 +20,42 @@ O que é git:
 GIT COMANDOS
 
 				Git --version vê a version
-
 				git clone "url" cria uma versao da pasta do github dentro do seu disco 
-
 				exteção git lens
-
+				
+			CONFIGURAÇÃO USER
 				git config --global user.name ou user.email ""
 
-				git checkout -b nome.brainch troca de brainch
-
+			INIT 
 				git init (arquivo novo)  iniciou um repositorio git
 
+			STATUS
 				git status vê como está o andamento dentro da pasta em relação ao git
 
+			ADD arquivos ao stage
 				git add "file" adiciona o arquivo em expecifico 
 				git add . adiciona todos
-
+			
+			Restauração
 				git restore --staged 'file' volta para o estado anterior
-
+			
+			DIFF MODIFICAÇÕES
 				git diff mostra as linhas modificadas 
 				git diff --staged 
-				
+			
+			COMMIT
 				git log traz todos os ultimos commits
-				
+			
+			Arquivos PULL	
 				git fetch vê os arquivos que vão ser baixados pelo git
 				git diff origin/main mostra os arquivos que vão entrar pelo git pull
+			
+			branch
+				git branch nome_branch cria uma branch
+				git log --online --decorate indica aonde está o head
+				git checkout -b nome_branch muda a branch
+				
+								
 				
 --------------------------------------------------------------
 
