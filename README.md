@@ -175,8 +175,9 @@ Funções - Definições
 		F(X) = 2X + 1
 	
 	Grafico feito em plano cartesiano para colocação do conjunto X e Y.
-	X = {1,2,3}
-	F(X) = 2X
+		
+		X = {1,2,3}
+		F(X) = 2X
 		
 		Y
 		6|     .
@@ -186,19 +187,20 @@ Funções - Definições
 		   1 2 3
 	
 	
-	F(X) = X²
+		F(X) = X²
+	
 				Y
 		.		|		.
 		.		|		.
 		.		|		.
-			___________.|.__________> X
+		___________.|.__________> X
 				|  
 				|
 				|
 				|
 
 			
-	F(X) = X²
+		F(X) = X²
 			
 				Y
 				|	.
