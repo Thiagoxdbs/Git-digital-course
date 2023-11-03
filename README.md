@@ -1,4 +1,6 @@
+_______________________________________________________________________________
 
+01 - Git/Versionamento
 _______________________________________________________________________________
 
 Versionamento:
@@ -19,9 +21,9 @@ O que é git:
 --------------------------------------------------------------
 GIT COMANDOS
 
-				Git --version vê a version
-				git clone "url" cria uma versao da pasta do github dentro do seu disco 
-				exteção git lens
+			Git --version vê a version
+			git clone "url" cria uma versao da pasta do github dentro do seu disco 
+			exteção git lens
 				
 			CONFIGURAÇÃO USER
 				git config --global user.name ou user.email ""
@@ -54,8 +56,8 @@ GIT COMANDOS
 				git branch nome_branch cria uma branch
 				git log --online --decorate indica aonde está o head
 				git checkout -b nome_branch muda a branch
-				
-								
+				git branch mostra todas as branchs
+				git merge nome_branch traz o conteudo da branch solicitada
 				
 --------------------------------------------------------------
 
@@ -73,7 +75,96 @@ GIT COMANDOS
 	commit 
  
 -------------------------------------------------------------
+obs:
 
+'Pasta .gitignore ignora arquivos no git'
 
+_______________________________________________________________________________
+
+02 - Cálculo Básico
+_______________________________________________________________________________
+
+Funções - Definições
+
+--Relação 
+
+	Conjuntos A, B;
+	Pronduto Cartesiano AxB = {(A,B), a&B; b$B}
+	A = {1,2,3}
+	B = {4,6}
+	AxB = {(1,4),(1,6), (2,4), (2,6), (3,4), (3,6)}
+
+		B
+		6| .-.-.
+		4| .-.-.
+		 |
+		 |_._._.__> A
+		   1 2 3
+		
+	Relação: Rc AxB# ------> R{(2,4),(3,6)}
+	
+	R será uma função: V(ParaTodos)aeA & B:(a,b)eR
+	---------------
+	| F: A ---> B |
+	|    a ---> b |
+	|    F(a) = b |
+	---------------
+	
+		A domínio de F
+		B contradomínio de F
+		
+		Im(F) = {beB: &aeB com F(a) = b}
+	
+-------------------------------------------------------------
+	
+		A = {1,2,3,4}
+		B = {0,2,4,6,8,10}
+	
+	Diagrama de Venn
+	
+	F:	(A,B)
+		(1,2)
+		(2,4)
+		(3,6)
+		(4,8)
+	
+	Im(F)c B
+	Im(F) = {2,4,6,8}
+	
+-------------------------------------------------------------
+	Injetoras:
+	Sempre que todos os elementos da imagem recebem do domínio
+	
+	Exemplo:
+		A = {1,2,3}
+		B = {2,4,6}
+		F:
+			(1,2)
+			(2,4)
+			(3,6)
+
+-------------------------------------------------------------
+	Sobrejetoras:
+	Elementos da imagem com o mesmo valor podem receber mais de uma variavel A
+	Funções sobrejetoras possuem todos os elementos do contradomínio.
+	A imagem de uma função sobrejetoras é igual ao seu contradomínio.
+	
+	Exemplo: 
+		A = {-2,2}
+		B = {4}
+		F: 
+			(-2,4)
+			( 2,4)
+	OBS: X = X² 
+	NÃO PODE TER FUNÇÃO DO DOMINIO NO CONTRADOMINIO
+	
+-------------------------------------------------------------
+	Bijetoras:
+	Para uma função ser bijetora, não é possível que dois elementos diferentes do 
+	domínio sejam associados a um mesmo elemento na imagem. Assim, a principal propriedade 
+	de uma função bijetora é que todos os elementos do domínio sejam associados a elementos diferentes 
+	na imagem.	
+-------------------------------------------------------------
+	
 
 -------------------------------------------------------------
