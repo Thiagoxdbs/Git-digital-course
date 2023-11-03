@@ -165,6 +165,26 @@ Funções - Definições
 	de uma função bijetora é que todos os elementos do domínio sejam associados a elementos diferentes 
 	na imagem.	
 -------------------------------------------------------------
+	Expressão funcional, gráficos e paridade
 	
-
+	F: |R ---> |R
+		X ---> F(X)
+		
+	Expressão funcional = Funções
+	Exemplo:
+		F(X) = 2X + 1
+	
+	Grafico feito em plano cartesiano para colocação do conjunto X e Y.
+	X = {1,2,3}
+	F(X) = 2X
+		
+		Y
+		6|     .
+		4|   .
+		2| .
+		 |_______> X
+		   1 2 3
+	
+	
+	
 -------------------------------------------------------------
