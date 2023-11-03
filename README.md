@@ -263,8 +263,51 @@ COMPOSIÇÃO DE FUNÇÕES:
 	F-¹oF = X 	g(x) = X	
 	
 -------------------------------------------------------------
+2.04 EXEMPLOS DE FUNÇÕES
 
+	CONSTANTE
+	F(X) = C ---> NÃO DEPENDE DO VALOR DO DOMINIO(CONSTANTE)
+	V(T) = 20
+	UMA RETA NA VERTICAL
+	
+	LINEAR
+	F(X) = ax + b
+	F(D) = 5 + 2D
+	UMA RETA ENTRE X E Y, UMA RETA VERTICAL 
+	
+	FUNÇÃO QUADRATICA
+	F(X) = ax² + bx + c
+	H(T) = S - ST²
+	GRAVIDADE, CURVA 	
 
+	F(X) = x³ + 10x² +5x
+	COMPARAÇÃO AO UMA MONTANHA RUSSA
+
+	FUNÇÕES RACIONAIS
+	F(X)= (P(X))/Q(X); F(X)= 1/X
+	RAZOES DE POLINOMIO
+	POTÊNCIAL DE LEONAR JONES
+	U(raio) = A/R¹² - B/R³+³
+	ENERGIA DE LIGAÇÃO
+	
+	FUÇÕES TRIGONOMÉTRICAS
+	F(X) = SEN(X)
+	F(X) = COS(X)
+	F(X) = TG(X) = (SEN(X))/COS(X)
+	Série de Fourier
+	SÃO ONDAS, LEMBRO COMO LAMBIDA 
+	
+	FUNÇÕES EXPONÊCIAIS
+	F(X) = CONSTANTE.e^bx
+	N(T) = N0.E^rt (calculo do virus)
+	QUANDO SEMPRE CRESCE E TEM UM GRANDE CRESCIMENTO DE UMA HORA PARA OUTRA
+	
+	FUNÇÃO DE SIGMÓDE (CIENCIA DE DADOS, GRANDE IMPORTÂNCIA EM PROGRAMAÇÃO)
+	REDES NEORAIS
+	LETRA GREGA SIGMA= VOU COLOCAR COMO &
+	&(X) = 1/(1+e^-x)
+	ELA NUNCA É MENOR QUE 0 OU MAIOR QUE 1
+	
 -------------------------------------------------------------
 
 
