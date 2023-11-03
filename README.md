@@ -200,7 +200,7 @@ Funções - Definições
 				|
 
 			
-		F(X) = X²
+		F(X) = X³
 			
 				Y
 				|	.
