@@ -313,7 +313,7 @@ _______________________________________________________________________________
 	
 _______________________________________________________________________________
 
-2.05 CONCEITOS DE LIMITES
+2.05.6 CONCEITOS DE LIMITES
 _______________________________________________________________________________
 
 
@@ -334,6 +334,81 @@ _______________________________________________________________________________
 	F: |R =! {0} --->|R 
 	X ---> F(X)=1/X
 	
+	LIM F(X) = ?
+	X = +INFINITO E X = -INFINITO
+	
+	LIM (X+1)/2X+1
+	X = INFINITO
+	
+	LIM 1/X = 0
+	X = INFINITO
+	LIM 1/X = 0
+	X = -INFINITO
+	
+	LIM (X+1)/2X+1 = X(1+((1)/X))/X(2+1) = (1 + (1/X))/(2 + (1/X)
+	LIM 1/X = 0
+	X = 1/2 == LIM F(X) == -INFINITO == +INFINITO
+	
+	*GRAFICO = É UMA ASSINTOTA VERTICAL*
+
+_______________________________________________________________________________
+
+2.07 DERIVADAS - INTUIÇÃO E NECESSIDADE
+_______________________________________________________________________________
+
+
+	DISTÂNCIA DE DOIS PONTOS
+	D= DISTANCIA
+	D = 435 KM
+	T = TEMPO
+	T = 6 HORAS
+	V = VELOCIDADE MEDIA
+	V = D/T
+	V 435/6 = 72,5 KM/H
+	
+	VELOCIDADE COMO UMA FUNÇÃO DO TEMPO
+	V(T)
+	
+	*COMO DEFINI VELOCIDADE INSTANTÂNIA*
+		-----------------------------
+		|v = VELOCIDADE INSTANTÂNIA	|
+		|	v =  ΔX/ΔT				|
+		|	v(T) = LIM ΔX/ΔT 		|
+		|	ΔT = 0					|
+		-----------------------------
+	
+	ΔT ----> DT QUANDO O LIMITE DE ΔT VIRA 0, CHAMAMOS DE 'DT'
+	ΔX ----> DX
+	--------------------
+	|v(T) = (DX(T))/DT |
+	--------------------
+	
+	DERIVADA É UMA FORMA DE MEDIR AS VARIAÇÕES
+	DERIVADA <=> VARIAÇÕES {(DE)CRESCIMENTO}
+	
+	FUNÇÃO CONSTANTE
+	F(X) = C
+	
+	DF/DX = 0
+	
+	FUNÇÃO LINEAR
+	F(X) = AX+B
+	
+	DF/DX > 0
+	
+	FUNÇÃO QUADRATICA
+	F(X) = AX² +BX +C
+	
+	DF/DX < 0 NEGATIVA NO INICIO
+	
+	PASSA PARA:
+	-----------------------------------------
+	|EXISTE UM UNICO PONTO QUE A FUNÇÃO FICA| 
+	|DF/DX = 0                              |								
+	-----------------------------------------
+	
+	FINAL:
+	DF/DX < 0 POSITIVA NO FINAL	
 	
 -------------------------------------------------------------
 
