@@ -399,24 +399,70 @@ _______________________________________________________________________________
 	FUNÇÃO QUADRATICA
 	F(X) = AX² +BX +C
 	
-	DF/DX < 0 NEGATIVA NO INICIO
-	
-	PASSA PARA:
+	DF/DX < 0 NEGATIVA 
 	-----------------------------------------
 	|EXISTE UM UNICO PONTO QUE A FUNÇÃO FICA| 
-	|DF/DX = 0                              |								
+	|DF/DX = 0  O VALOR MINIMO DA FUNÇÃO    |								
 	-----------------------------------------
+	DF/DX < 0 POSITIVA 
 	
-	FINAL:
-	DF/DX < 0 POSITIVA NO FINAL	
+_______________________________________________________________________________
+
+2.08 DERIVADAS - CONSTRUÇÃO GEOMÉTRICA
+_______________________________________________________________________________
+
+
+	F(X) = X²
+	
+				Y
+			.	|	.
+			.	|	.
+			.	|	.
+			_______.|.__________> X
+				|  
+				|
+				|
+				|
+
+	DF/DX = LIM ΔF/ΔX
+	ΔX ---> 0
+	X = {1,2,3}
+	ΔX = 2 - 1 = 1
+	ΔF = 4 - 1 = 3
+	ΔF/ΔX = 3/1 = 3
+	
+		   /| 	
+		  / |
+	TG	 / _| ΔF
+		/_|_| 90º
+		ΔX
+	ΔX ---> 0 
+	DX PARA VIRAR UMA TANGENTE PARA FORMA UMA RETA NA TANGENTE
+	ESTÁ RELACIONADO A INCLINAÇÃO DA RETA TANGENTE A O PONTO X
+	
+	TG∅ = ΔF/ΔX
+	LIM DX ---> 0 APROXIMA
+	TG∅ = DF/DX 
+	
+	EXISTE UM MOMENTO QUE O PONTO FICA RETO
+	NO MOMENTO:
+	DF/DX = 0 
+	CRITEIRO PARA ENCONTRAR O PONTO MINIMO E MAXIMO
+	MAIOR PONTO É CONSIDERADO O MAXIMO GLOBAL 
+	O OUTROS PONTOS MAIORES SÃO CHAMADOS DE MAXIMO LOCAL 
+	MENOR PONTO É CONSIDERADO O MINIMO GLOBAL 
+	O OUTROS PONTOS MENORES SÃO CHAMADOS DE MINIMO LOCAL 
+	
+	RELACIONADO A ÀREA DE OTIMIZAÇÃ,
+	DF/DX = 0 == PONTO DE ÓTIMO
+	
+	DERIVADOS DE SEGUNDA ORDEM
+	D²F/DX² = (D/DX/).(DF/DX)
+	CONCAV CIMA
+	D²F/DX² > 0
+	CONCAV BAIXO
+	D²F/DX² < 0
+	
 	
 -------------------------------------------------------------
-
-	
--------------------------------------------------------------
-
-
--------------------------------------------------------------
-
-
 -------------------------------------------------------------
