@@ -371,10 +371,10 @@ _______________________________________________________________________________
 	
 	*COMO DEFINI VELOCIDADE INSTANTÂNIA*
 		-----------------------------
-		|v = VELOCIDADE INSTANTÂNIA	|
-		|	v =  ΔX/ΔT				|
-		|	v(T) = LIM ΔX/ΔT 		|
-		|	ΔT = 0					|
+		|v = VELOCIDADE INSTANTÂNIA |
+		|	v =  ΔX/ΔT              |
+		|	v(T) = LIM ΔX/ΔT        |
+		|	ΔT = 0                  |
 		-----------------------------
 	
 	ΔT ----> DT QUANDO O LIMITE DE ΔT VIRA 0, CHAMAMOS DE 'DT'
