@@ -596,17 +596,74 @@ _______________________________________________________________________________
 _______________________________________________________________________________
 	
 
-	Um algoritmo é uma sequência de raciocínios, instruções ou operações 
-	para alcançar um objetivo, sendo necessário que os passos sejam finitos 
-	e operados sistematicamente. Um algoritmo, portanto, conta com a entrada 
-	input) e saída (output) de informações mediadas pelas instruções.	
-	
+			*Um algoritmo é uma sequência de raciocínios, 
+		instruções ou operações para alcançar um objetivo, 
+		sendo necessário que os passos sejam finitos e 
+		operados sistematicamente. Um algoritmo, portanto, 
+		conta com a entrada (input) e saída (output) de 
+		informações mediadas pelas instruções.*	
 _______________________________________________________________________________
 
 3.02 FLUXO SIMPLES, SEQUENCIAL
 _______________________________________________________________________________
 	
 	
+			*São algoritmos nos quais executamos todos
+		os passos (instruções) na seqüência em que
+		eles aparecem, do primeiro até o último,
+		durante um tempo finito.
+			Passos devem ser precisamente definidos
+		não deixando margem a ambigüidades.*
+	
+_______________________________________________________________________________
+
+3.03 TIPOS DE DADOS
+_______________________________________________________________________________
+	
+	
+	No geral, os dados podem ser divididos em dois tipos 
+	principais: qualitativos e quantitativos.
+
+		Dados qualitativos: tudo o que se refere à qualidade
+		de algo. Em geral, são representados com palavras ou 
+		conceitos. Por exemplo: cores, nacionalidades, nomes, 
+		gênero, etc. 
+			STRING
+
+		Dados quantitativos: dados que são mensuráveis ou se 
+		referem a números. Por exemplo: o número de bolas de 
+		golfe, o tamanho, o preço, a nota em uma prova, sua 
+		idade e etc.
+			INT
+
+		Há também outras categorias com as quais você pode 
+		se deparar:
+
+		Dados categóricos: são os que categorizam o item que 
+		você está descrevendo. A condição das bolas de golfe, 
+		por exemplo. Elas são novas, quebradas ou consertadas?
+			BOOL
+		
+		Dados discretos: são dados numéricos, representados 
+		por números inteiros não negativos. Por exemplo, a 
+		contagem das bolas de golfe. Só pode haver um número 
+		inteiro de bolas de golfes (0,3 bolas seria impossível). 
+		Número de pessoas ou quantidade de músicas em um álbum 
+		são outros exemplos.
+			INT
+	
+		Dados contínuos: são dados onde também é possível termos 
+		“número quebrados”, ou seja, todos os valores são possíveis. 
+		O tamanho das bolas de golfes pode ser qualquer valor, 
+		10,53 mm, 10,54 mm ou 10,536 mm. O tamanho do pé é outro 
+		exemplo, ao contrário do tamanho do calçado, que é um dado 
+		discreto.
+			FLOAT
+			
+_______________________________________________________________________________
+
+3.04 DECISÃO
+_______________________________________________________________________________
 	
 -------------------------------------------------------------
 -------------------------------------------------------------
