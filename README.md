@@ -589,6 +589,24 @@ _______________________________________________________________________________
 			= e^-X(1-X)
 			=(1-X)/e^X
 		
-		
+
+_______________________________________________________________________________
+
+3.01 APRESENTANDO ALGORITMOS
+_______________________________________________________________________________
+	
+
+	Um algoritmo é uma sequência de raciocínios, instruções ou operações 
+	para alcançar um objetivo, sendo necessário que os passos sejam finitos 
+	e operados sistematicamente. Um algoritmo, portanto, conta com a entrada 
+	input) e saída (output) de informações mediadas pelas instruções.	
+	
+_______________________________________________________________________________
+
+3.02 FLUXO SIMPLES, SEQUENCIAL
+_______________________________________________________________________________
+	
+	
+	
 -------------------------------------------------------------
 -------------------------------------------------------------
