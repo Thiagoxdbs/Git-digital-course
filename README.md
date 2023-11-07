@@ -522,7 +522,73 @@ _______________________________________________________________________________
 _______________________________________________________________________________
 	
 
+	- F(X) = G(X) +H(X) -K(X)
+		DF/DX = DG/DX +DH/DX - DK/DX
+		= (DG + DH - DK)/DX
+		
+		EX:
+			F(X) = X² + SEN(X) - 42
+			DF/DX = 2X + COS(X)
 	
-	
+	- F(X) = CONSTATE DE G(X); DF/DX = CONSTANTE DG/DX
+		
+		EX:
+			F(X)= 5X^4
+			(D(5X^4))/DX
+			5(DX^4)/DX 
+			5(4X³) 
+			20X³ 
+			
+	- F(X) = G(X)H(X);
+		DF/DX = (DG/DX).H + (DH/DX).G
+		
+		EX:
+			F(X) = 2^X.COS(X)
+			DF/DX = LN((2)2^X)COSX + 2^X(-SINX)
+			DF/DX = 2^X(LN(2)COSX - SENX)
+			DF/DX = 2^X(LN(2)COSX-SENX)
+			
+	- F(X) = (G(X))/H(X)
+		DF/DX = ((DG/DX).H - G(DH/DX))/H²
+		
+		EX:
+			F(X) = X/e^X
+			=((DX/DX)e^X - (De^X).X)/(e^X)²
+			=(e^X - Xe^X)/(e^X + e^x)
+			=(1 - X)/e^X
+			
+	- F(X) = G(H(X))
+		DF/DX = (DH/DX).(DG/DX)|H(X)
+		
+		EX: 
+			F(X) = SEN(X²)
+			DF/DX = (2X).(COS(X²))
+			
+		EX 2: 
+			F(X) = e^-X
+			DF/DX = (-1)e^-X 
+			= -e^-X
+		
+		EX 3:
+			F(X) = COS²(X)
+			DF/DX = (-SENX)(2X)|COSX
+			= -SENX(2COSX)
+			= - 2SENX.COSX
+		
+		EX 4: 
+			F(X) = e^X^2
+			DF/DX = 2Xe^x^2
+			
+		EX 5:
+			F(X) = (4X²+3X+42)²
+			= (8X + 3)2(4X²+3+42)
+			= (16X + 6)(4X²+3X+42)
+		
+		F(X) = X/e^X = Xe^-X 
+			DF/DX = E^-X + X(-1e^-X)
+			= e^-X(1-X)
+			=(1-X)/e^X
+		
+		
 -------------------------------------------------------------
 -------------------------------------------------------------
