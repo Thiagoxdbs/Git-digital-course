@@ -665,5 +665,26 @@ _______________________________________________________________________________
 3.04 DECISÃO
 _______________________________________________________________________________
 	
+	
+	INICIO PRINCIPAL
+		VAR NOME: STRING
+		VAR HORA: INTEIRO
+		VAR MENSAGEM: STRING
+		
+		MOSTRA "DIGITE SEU NOME: "
+		ESPERAR_DIGITAÇÃO ---> NOME
+		MOSTRAR "DIGITE A HORA ATUAL (SOMENTE A HORA): "
+		ESPERAR_DIGITAÇÃO ---> HORA
+		
+		SE (HORA MAIOR_QUE 0) E (HORA MENO_QUE 12)
+			DEFINIR "BOM DIA" ---> MENSAGEM
+		OU_SE (HORA MAIOR_OU_IGUAL_A 12) E (HORA MENOR_QUE 18)
+			DEFINIR "BOA TARDE" ---> MENSAGEM
+		OU_SE (HORA MAIOR_OU_IGUAL_A 18) E (HORA MENOR_QUE 24)
+			DEFINIR "BOA NOITE" ---> MENSAGEM
+			
+		MOSTRAR MENSAGEM, NOME
+	FIM
+	
 -------------------------------------------------------------
 -------------------------------------------------------------
